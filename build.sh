@@ -18,7 +18,7 @@ banner(){
 	echo -e "\t9. qemu-system-x86_64 -bios build/coreboot.rom -cdrom <iso> "
 
 }
-install_stuff{
+install_stuff(){
 	sudo dnf install git make gcc-gnat flex bison xz bzip2 gcc g++ ncurses-devel wget zlib-devel patch
 }
 

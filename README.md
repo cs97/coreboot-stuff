@@ -27,7 +27,7 @@ make savedefconfig && cat defconfig
 make
 ```
 ```
-qemu-system-x86_64 -bios coreboot/build/coreboot.rom -serial stdio;;
+qemu-system-x86_64 -bios coreboot/build/coreboot.rom -serial stdio
 OR
-qemu-system-x86_64 -bios coreboot/build/coreboot.rom --cdrom $2;;
+qemu-system-x86_64 -bios coreboot/build/coreboot.rom --cdrom <iso>
 ```

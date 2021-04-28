@@ -12,10 +12,10 @@ banner(){
 	echo -e "\t3. make -C payloads/coreinfo "
 	echo -e "\t4. make menuconfig "
 	echo -e "\t5. cat defconfig  "
-	echo -e "\t6. make "
+	echo -e "\t6. make \n"
 	echo -e "\t7. tutorial/part1 \n"
 	echo -e "\t8. qemu-system-x86_64 -bios build/coreboot.rom -serial stdio"
-	echo -e "\t9. qemu-system-x86_64 -bios build/coreboot.rom -cdrom <iso> "
+	echo -e "\t9. qemu-system-x86_64 -bios build/coreboot.rom -cdrom <iso> \n"
 
 }
 install_stuff(){

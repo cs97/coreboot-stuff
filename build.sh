@@ -1,4 +1,5 @@
 #! /bin/bash
+# https://doc.coreboot.org/tutorial/part1.html
 
 banner(){
 	clear

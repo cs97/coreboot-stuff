@@ -29,5 +29,5 @@ make
 ```
 qemu-system-x86_64 -bios coreboot/build/coreboot.rom -serial stdio
 OR
-qemu-system-x86_64 -bios coreboot/build/coreboot.rom --cdrom <iso>
+qemu-system-x86_64 -bios coreboot/build/coreboot.rom -m 4096 --cdrom <iso>
 ```

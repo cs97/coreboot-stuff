@@ -30,4 +30,6 @@ make
 qemu-system-x86_64 -bios coreboot/build/coreboot.rom -serial stdio
 OR
 qemu-system-x86_64 -bios coreboot/build/coreboot.rom -m 4096 --cdrom <iso>
+OR
+qemu-system-x86_64 -bios build/coreboot.rom -enable-kvm -smp cores=4 -m 4096 -serial stdio --cdrom <iso>
 ```
